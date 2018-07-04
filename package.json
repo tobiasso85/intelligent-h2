@@ -1,0 +1,30 @@
+{
+  "name": "intelligent-h2",
+  "version": "0.0.1",
+  "description": "intelligent http2 server which does request recording and tries to pro-actively serve resources",
+  "main": "server/launcher.js",
+  "scripts": {
+    "start": "set DEBUG=launcher&& node src/server/launcher.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tobiasso85/intelligent-h2.git"
+  },
+  "keywords": [
+    "h2"
+  ],
+  "author": "Tobias Sorn",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/tobiasso85/intelligent-h2/issues"
+  },
+  "homepage": "https://github.com/tobiasso85/intelligent-h2#readme",
+  "dependencies": {
+    "debug": "^3.1.0",
+    "node-json-db": "^0.7.5",
+    "spdy": "^3.4.7",
+    "supports-color": "^5.4.0",
+    "yargs": "^12.0.1"
+  }
+}
